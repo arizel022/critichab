@@ -1,0 +1,90 @@
+@import 'global/reset';
+
+$d: #24262B;
+$l: #f3f3f3;
+
+$a: #00A006;
+$s: #FFA800;
+
+
+/*
+@media (max-width: 1200px) {
+        
+}
+@media (max-width: 992px) {
+        
+}
+@media (max-width: 768px) {
+        
+}
+@media (max-width: 576px) {
+        
+}
+*/
+
+body {
+    min-height: 100vh;
+    background-color: $l;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: $d;
+    overflow-x: hidden;
+
+    &.lock {
+        overflow-y: hidden;
+    }
+}
+
+// img {
+//     object-fit: cover;
+// }
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.logo {
+    display: block;
+    max-width: 308px;
+}
+
+.button {
+    font-size: 24px;
+    background-color: $a;
+    padding: 13px 24px;
+    border-radius: 15px;
+    color: $l;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: box-shadow 0.3s;
+
+    &:hover, &:focus {
+        box-shadow: 1px 1px 4px #0000006b;
+    }
+
+    &:active {
+        box-shadow: inset 1px 1px 4px #0000006b;
+    }
+
+    &--small {
+        font-size: 16px;
+    }
+}

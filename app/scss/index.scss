@@ -1,0 +1,133 @@
+// @import '../../node_modules/slick-carousel/slick/slick.scss';
+@import '../../node_modules/magnific-popup/src/css/main.scss';
+@import 'global/global';
+
+
+.header {
+    padding-top: 100px;
+
+    &__content {
+        max-width: 515px;
+        width: 100%;
+        margin-right: 85px;
+        min-height: 480px;
+    }
+
+    &__logo {
+        margin-bottom: 60px;
+    }
+
+    &__text {
+        margin-bottom: 50px;
+    }
+}
+
+.mentor {
+    &__container {
+        background-color: $s;
+        padding: 30px;
+        padding-right: 0;
+        position: relative;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        background-color: $d;
+        color: $l;
+    }
+
+    &__content {
+        padding: 30px 40px 30px 60px;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    &__details {
+        display: flex;
+        gap: 25px;
+    }
+
+    &__name {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    &__text {
+        margin-bottom: 30px;
+
+        p:not(:last-child) {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__links {
+        display: flex;
+        gap: 25px;
+    }
+
+    &__works {
+        position: absolute;
+        background-color: $d;
+        right: 0;
+        top: -90%;
+        max-width: 814px;
+        padding: 35px;
+    }
+
+    &__works-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 45px 30px;
+    }
+}
+
+
+.how {
+    padding-top: 60px;
+
+    &__title {
+        font-size: 40px;
+        margin-bottom: 60px;
+    }
+
+    &__list {
+        margin-bottom: 80px;
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    &__item {
+        max-width: 300px;
+        width: 100%;
+        box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.25);
+        padding: 25px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        gap: 30px;
+    }
+
+    &__text {
+        
+    }
+}
+
+.pay {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
