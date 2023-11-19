@@ -88,3 +88,23 @@ body {
         font-size: 16px;
     }
 }
+
+
+.sq-link {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    transition: outline 0.5s;
+
+    &:hover, &:focus {
+        outline: 1px solid $a;
+        outline-offset: 4px;
+    }
+
+    &:active {
+        opacity: 0.5;
+    }
+}
