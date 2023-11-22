@@ -3,9 +3,10 @@
 $d: #24262B;
 $l: #f3f3f3;
 
-$a: #00A006;
-$s: #FFA800;
-
+// $a: rgb(112, 0, 146);
+// $s: rgb(250, 121, 0);
+$s: rgb(250, 121, 0);
+$a: #02978b;;
 
 /*
 @media (max-width: 1200px) {
@@ -97,7 +98,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 6px;
-    transition: outline 0.5s;
+    transition: outline 0.5s, opacity 0.3s;
 
     &:hover, &:focus {
         outline: 1px solid $a;
